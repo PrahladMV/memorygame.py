@@ -21,7 +21,7 @@ def reveal_tile(board, row, col):
         return board[row][col]
 
 def main():
-    print("Welcome to the Unique Memory Game!")
+    print("Welcome to Prahlad's Memory Game!")
 
     size = int(input("Enter the size of the board (even number, e.g., 4): "))
     if size % 2 != 0:
